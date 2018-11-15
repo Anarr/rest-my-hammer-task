@@ -2,6 +2,22 @@
     <h1 align="center">The Devilbox</h1>
 </p>
 
+
+# my_hammer
+
+After cloning the project use docker-compose up in ./devilbox directory
+
+The available host is http://rest-myhammer.loc. Please register the url into your own hosts file
+
+# Then run migrations:
+
+php bin/console make:migrations
+
+php bin/console docterine:migrations:migrate
+
+For documentation, how to using current api preview http://rest-myhammer.loc/api/doc.json
+
+
 ![Devilbox](docs/img/banner.png)
 
 **[Usage](#usage)** |
